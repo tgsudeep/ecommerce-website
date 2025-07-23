@@ -1,0 +1,188 @@
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 100%;
+  background-color: #f2f7dc;
+  padding: 10px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+
+.cart1 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+.cart-wrapper {
+  position: relative;
+  margin-left: 15px;
+}
+
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.log-in {
+  background-color: orangered;
+  padding: 5px 12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+}
+
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  height: 35px;
+  margin: 5px 0;
+}
+
+
+.search-section input,
+.search-section button {
+  height: 35px;
+  font-size: 14px;
+  box-sizing: border-box;
+  line-height: 1;
+  margin: 0;
+  padding: 0 12px;
+  border: none;
+}
+
+
+.search-section input {
+  border: 1px solid gray;
+  border-radius: 4px 0 0 4px;
+  flex: 1;
+  min-width: 150px;
+}
+
+
+.search-section button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.center {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .center {
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .search-section {
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .search-section input {
+    width: 70%;
+  }
+
+  .search-section button {
+    width: 25%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .header {
+    padding: 10px;
+  }
+
+  .center {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .log-in {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .search-section {
+    flex-direction: column;
+    gap: 5px;
+    align-items: stretch;
+  }
+
+  .search-section input,
+  .search-section button {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .search-section input {
+    border-radius: 4px;
+  }
+
+  .search-section button {
+    border-radius: 4px;
+  }
+
+  .cart-wrapper {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,72 @@
+
+@media (max-width: 1024px) {
+  .MuiTableCell-root {
+    min-width: 250px;
+    font-size: 20px; 
+  }
+
+  .MuiTableCell-body {
+    font-size: 17px; 
+  }
+
+  .MuiButton-root {
+    font-size: 15px; 
+  }
+
+  .manage-users-container h2 {
+    font-size: 26px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .manage-users-container {
+    padding: 12px;
+  }
+
+  .manage-users-container h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .MuiTableCell-root {
+    min-width: 180px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .MuiTableCell-body {
+    font-size: 16px; 
+  }
+
+  .MuiButton-root {
+    font-size: 14px; 
+    padding: 8px 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .MuiTableCell-root {
+    min-width: 130px;
+    padding: 8px;
+    font-size: 15px; 
+  }
+
+  .MuiTableCell-body {
+    font-size: 15px;
+  }
+
+  .MuiButton-root {
+    font-size: 13px; 
+    padding: 6px 12px;
+  }
+
+  .manage-users-container h2 {
+    font-size: 22px; 
+  }
+
+  .table-font {
+    font-size: 16px; 
+  }
+}

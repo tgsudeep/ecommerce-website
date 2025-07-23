@@ -1,0 +1,75 @@
+.payment-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fdfdfd;
+  }
+  
+  .payment-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .payment-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+  }
+  
+  .payment-form .row {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .payment-form .row input {
+    flex: 1 1 50%; 
+    min-width: 0;
+  }
+  
+  .payment-form .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .payment-form .row input {
+    flex: 1;
+  }
+  
+  .payment-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .gpay-divider {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .gpay-button {
+    background-color: #000;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

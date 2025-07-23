@@ -1,0 +1,39 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #004d40;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}

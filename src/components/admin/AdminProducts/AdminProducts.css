@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  .MuiDialogTitle-root {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .MuiDialogContent-root {
+    padding: 12px !important;
+  }
+
+  .MuiDialogActions-root {
+    padding: 12px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .MuiButton-containedPrimary {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .MuiDataGrid-root {
+    font-size: 0.8rem;
+  }
+
+  .MuiDataGrid-columnHeaders {
+    font-size: 0.8rem;
+  }
+
+  .MuiDataGrid-cell {
+    font-size: 0.75rem;
+    min-width: 150px; /* ⬅️ Increased from default/small values */
+  }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  .MuiTextField-root {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .MuiDialogTitle-root {
+    font-size: 0.95rem;
+  }
+
+  .MuiDataGrid-columnHeaders,
+  .MuiDataGrid-cell {
+    font-size: 0.7rem;
+    min-width: 130px; 
+  }
+
+  .MuiButton-containedPrimary {
+    font-size: 0.85rem;
+  }
+}
